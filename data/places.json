@@ -1525,9 +1525,10 @@
   {
     "name": "Stetes Coffee (Steco Leksana Karangkobar)",
     "cat": "umkm",
-    "addr": "",
+    "addr": "Dekat Ksp Graha Mandiri, Leksana I, Leksana, Kec. Karangkobar, Kab. Banjarnegara, Jawa Tengah 53453",
     "lat": -7.2679666,
     "lng": 109.7410739,
+    "pid": "Kedai Kopi",
     "id": 184
   }
 ]
