@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin — Peta Desa Leksana</title>
+<style>
+  :root{
+    --ink:#1a1a1a;
+    --bg:#f5f5f3;
+    --card:#ffffff;
+    --border:rgba(0,0,0,0.12);
+    --accent:#1F6F50;
+    --danger:#B3372A;
+  }
+  *{ box-sizing:border-box; }
+  body{
+    margin:0;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg);
+    color:var(--ink);
+  }
+  .wrap{ max-width:980px; margin:0 auto; padding:24px 16px 80px; }
+  h1{ font-size:22px; font-weight:600; margin:0 0 4px; }
+  .sub{ color:#666; font-size:14px; margin-bottom:24px; }
+
+  /* Login */
+  #loginScreen{
+    max-width:360px;
+    margin:80px auto;
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:28px;
+  }
+  #loginScreen h2{ margin:0 0 16px; font-size:18px; }
+  #loginScreen input{
+    width:100%;
+    padding:11px 12px;
+    border-radius:9px;
+    border:1px solid var(--border);
+    font-size:14px;
+    margin-bottom:12px;
+  }
+  #loginScreen button, .btn{
+    width:100%;
+    padding:11px 12px;
+    border-radius:9px;
+    border:none;
+    background:var(--ink);
+    color:#fff;
+    font-size:14px;
+    font-weight:600;
+    cursor:pointer;
+  }
+  #loginScreen .error{ color:var(--danger); font-size:13px; margin-bottom:10px; display:none; }
+
+  /* Main app */
+  #app{ display:none; }
+  .toolbar{
+    display:flex;
+    gap:10px;
+    align-items:center;
+    margin-bottom:16px;
+    flex-wrap:wrap;
+  }
+  .toolbar input[type=text]{
+    flex:1;
+    min-width:200px;
+    padding:10px 12px;
+    border-radius:9px;
+    border:1px solid var(--border);
+    font-size:14px;
+  }
+  .btn-primary{
+    background:var(--accent);
+    color:#fff;
+    border:none;
+    padding:10px 16px;
+    border-radius:9px;
+    font-size:14px;
+    font-weight:600;
+    cursor:pointer;
+    white-space:nowrap;
+  }
+  .btn-secondary{
+    background:#fff;
+    border:1px solid var(--border);
+    color:var(--ink);
+    padding:10px 16px;
+    border-radius:9px;
+    font-size:14px;
+    cursor:pointer;
+    white-space:nowrap;
+  }
+  .btn-danger{
+    background:#fff;
+    border:1px solid var(--danger);
+    color:var(--danger);
+    padding:6px 10px;
+    border-radius:7px;
+    font-size:12px;
+    cursor:pointer;
+  }
+  .btn-edit{
+    background:#fff;
+    border:1px solid var(--border);
+    padding:6px 10px;
+    border-radius:7px;
+    font-size:12px;
+    cursor:pointer;
+  }
+
+  table{ width:100%; border-collapse:collapse; background:var(--card); border-radius:12px; overflow:hidden; border:1px solid var(--border); }
+  thead th{ text-align:left; font-size:12px; text-transform:uppercase; letter-spacing:.03em; color:#777; padding:10px 12px; border-bottom:1px solid var(--border); }
+  tbody td{ padding:10px 12px; border-bottom:1px solid var(--border); font-size:13px; vertical-align:top; }
+  tbody tr:last-child td{ border-bottom:none; }
+  .cat-badge{
+    display:inline-block;
+    padding:2px 8px;
+    border-radius:99px;
+    font-size:11px;
+    font-weight:600;
+    color:#fff;
+  }
+  .actions{ display:flex; gap:6px; }
+
+  /* Modal */
+  .modal-overlay{
+    display:none;
+    position:fixed; inset:0;
+    background:rgba(0,0,0,0.4);
+    align-items:center;
+    justify-content:center;
+    padding:16px;
+    z-index:50;
+  }
+  .modal-overlay.show{ display:flex; }
+  .modal{
+    background:#fff;
+    border-radius:14px;
+    padding:24px;
+    max-width:460px;
+    width:100%;
+    max-height:90vh;
+    overflow-y:auto;
+  }
+  .modal h3{ margin:0 0 16px; font-size:17px; }
+  .field{ margin-bottom:12px; }
+  .field label{ display:block; font-size:12px; font-weight:600; color:#555; margin-bottom:5px; }
+  .field input, .field select{
+    width:100%;
+    padding:9px 10px;
+    border-radius:8px;
+    border:1px solid var(--border);
+    font-size:14px;
+  }
+  .field-row{ display:flex; gap:10px; }
+  .field-row .field{ flex:1; }
+  .modal-actions{ display:flex; gap:10px; margin-top:18px; }
+  .modal-actions button{ flex:1; padding:10px; border-radius:9px; font-size:14px; font-weight:600; cursor:pointer; }
+  .link-resolve{ display:flex; gap:8px; margin-bottom:12px; }
+  .link-resolve input{ flex:1; }
+  .link-resolve button{ padding:9px 12px; border-radius:8px; border:1px solid var(--border); background:#f2f2f0; font-size:13px; cursor:pointer; white-space:nowrap; }
+  .hint{ font-size:12px; color:#888; margin-top:-6px; margin-bottom:12px; }
+  .toast{
+    position:fixed; bottom:20px; left:50%; transform:translateX(-50%);
+    background:var(--ink); color:#fff; padding:12px 20px; border-radius:9px;
+    font-size:13px; display:none; z-index:60; max-width:90vw;
+  }
+  .toast.show{ display:block; }
+  .toast.error{ background:var(--danger); }
+  .count{ font-size:13px; color:#777; margin-bottom:10px; }
+</style>
+</head>
+<body>
+
+<div id="loginScreen">
+  <h2>Login Admin</h2>
+  <div class="error" id="loginError"></div>
+  <input type="password" id="passwordInput" placeholder="Masukkan password admin" autocomplete="current-password" />
+  <button onclick="doLogin()">Masuk</button>
+</div>
+
+<div class="wrap" id="app">
+  <h1>Kelola Lokasi — Desa Leksana</h1>
+  <div class="sub">Perubahan akan di-commit ke GitHub dan situs otomatis redeploy lewat Vercel dalam beberapa saat.</div>
+
+  <div class="toolbar">
+    <input type="text" id="tableSearch" placeholder="Cari nama, alamat, atau kategori..." oninput="renderTable()" />
+    <button class="btn-primary" onclick="openAddModal()">+ Tambah Lokasi</button>
+  </div>
+
+  <div class="count" id="countLabel"></div>
+  <table>
+    <thead>
+      <tr>
+        <th>No</th>
+        <th>Nama</th>
+        <th>Kategori</th>
+        <th>Alamat</th>
+        <th>Koordinat</th>
+        <th>Aksi</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+</div>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <h3 id="modalTitle">Tambah Lokasi</h3>
+
+    <div class="link-resolve">
+      <input type="text" id="gmapsLinkInput" placeholder="Tempel link Google Maps (opsional)" />
+      <button onclick="resolveLink()">Ambil Koordinat</button>
+    </div>
+    <div class="hint" id="resolveHint"></div>
+
+    <div class="field">
+      <label>Nama Lokasi</label>
+      <input type="text" id="fieldName" placeholder="Contoh: Warung Bu Sri" />
+    </div>
+    <div class="field">
+      <label>Kategori</label>
+      <select id="fieldCat"></select>
+    </div>
+    <div class="field">
+      <label>Alamat</label>
+      <input type="text" id="fieldAddr" placeholder="Contoh: RT 02/03, Ds. Leksana" />
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label>Latitude</label>
+        <input type="text" id="fieldLat" placeholder="-7.2675" />
+      </div>
+      <div class="field">
+        <label>Longitude</label>
+        <input type="text" id="fieldLng" placeholder="109.7395" />
+      </div>
+    </div>
+    <div class="field">
+      <label>Place ID (opsional, dari Google Maps)</label>
+      <input type="text" id="fieldPid" placeholder="ChIJ..." />
+    </div>
+
+    <div class="modal-actions">
+      <button class="btn-secondary" onclick="closeModal()">Batal</button>
+      <button class="btn-primary" onclick="saveEntry()">Simpan</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+  const CATS = {
+    pemerintahan: { label:'Pemerintahan', hex:'#B3372A' },
+    keamanan:     { label:'Keamanan',     hex:'#3B4B99' },
+    pendidikan:   { label:'Pendidikan',   hex:'#B8860B' },
+    ibadah:       { label:'Ibadah',       hex:'#5C8A3A' },
+    kesehatan:    { label:'Kesehatan',    hex:'#C0435C' },
+    ekonomi:      { label:'Ekonomi',      hex:'#B87A2E' },
+    umum:         { label:'Fasilitas Umum', hex:'#556B77' },
+    kuliner:      { label:'Kuliner',      hex:'#D2691E' },
+    jasa:         { label:'Jasa & Bengkel', hex:'#6E5A8C' },
+    penginapan:   { label:'Penginapan',   hex:'#8A6D3B' },
+    umkm:         { label:'UMKM',         hex:'#2E8C6E' },
+    kafe:         { label:'Kafe',         hex:'#8B5E3C' },
+    olahraga:     { label:'Olahraga',     hex:'#1F7A99' },
+  };
+
+  let PLACES = [];
+  let editingId = null;
+  let adminToken = sessionStorage.getItem('adminToken') || null;
+
+  if (adminToken) {
+    showApp();
+  }
+
+  function showToast(msg, isError){
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.className = 'toast show' + (isError ? ' error' : '');
+    setTimeout(()=> t.classList.remove('show'), 4000);
+  }
+
+  async function doLogin(){
+    const password = document.getElementById('passwordInput').value;
+    const errEl = document.getElementById('loginError');
+    errEl.style.display = 'none';
+    try {
+      const resp = await fetch('/api/verify', {
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({ password })
+      });
+      const data = await resp.json();
+      if (data.ok) {
+        adminToken = data.token;
+        sessionStorage.setItem('adminToken', adminToken);
+        showApp();
+      } else {
+        errEl.textContent = data.message || 'Login gagal';
+        errEl.style.display = 'block';
+      }
+    } catch (err) {
+      errEl.textContent = 'Gagal menghubungi server';
+      errEl.style.display = 'block';
+    }
+  }
+
+  async function showApp(){
+    document.getElementById('loginScreen').style.display = 'none';
+    document.getElementById('app').style.display = 'block';
+    populateCatSelect();
+    await loadPlaces();
+  }
+
+  function populateCatSelect(){
+    const sel = document.getElementById('fieldCat');
+    sel.innerHTML = Object.keys(CATS).map(k=>`<option value="${k}">${CATS[k].label}</option>`).join('');
+  }
+
+  async function loadPlaces(){
+    try {
+      const resp = await fetch('/api/places');
+      PLACES = await resp.json();
+      renderTable();
+    } catch (err) {
+      showToast('Gagal memuat data lokasi', true);
+    }
+  }
+
+  function renderTable(){
+    const q = document.getElementById('tableSearch').value.trim().toLowerCase();
+    const tbody = document.getElementById('tableBody');
+    const filtered = PLACES.filter(p=>{
+      if (!q) return true;
+      const hay = (p.name + ' ' + p.addr + ' ' + (CATS[p.cat] ? CATS[p.cat].label : p.cat)).toLowerCase();
+      return hay.includes(q);
+    });
+    document.getElementById('countLabel').textContent = filtered.length + ' dari ' + PLACES.length + ' lokasi';
+
+    tbody.innerHTML = filtered.map(p=>{
+      const cat = CATS[p.cat] || { label:p.cat, hex:'#999' };
+      return `<tr>
+        <td>${p.id}</td>
+        <td>${escapeHtml(p.name)}</td>
+        <td><span class="cat-badge" style="background:${cat.hex}">${cat.label}</span></td>
+        <td>${escapeHtml(p.addr || '')}</td>
+        <td>${p.lat}, ${p.lng}</td>
+        <td class="actions">
+          <button class="btn-edit" onclick="openEditModal(${p.id})">Edit</button>
+          <button class="btn-danger" onclick="deleteEntry(${p.id})">Hapus</button>
+        </td>
+      </tr>`;
+    }).join('');
+  }
+
+  function escapeHtml(s){
+    return String(s).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+
+  function openAddModal(){
+    editingId = null;
+    document.getElementById('modalTitle').textContent = 'Tambah Lokasi';
+    document.getElementById('fieldName').value = '';
+    document.getElementById('fieldCat').value = 'umkm';
+    document.getElementById('fieldAddr').value = '';
+    document.getElementById('fieldLat').value = '';
+    document.getElementById('fieldLng').value = '';
+    document.getElementById('fieldPid').value = '';
+    document.getElementById('gmapsLinkInput').value = '';
+    document.getElementById('resolveHint').textContent = '';
+    document.getElementById('modalOverlay').classList.add('show');
+  }
+
+  function openEditModal(id){
+    const p = PLACES.find(x=>x.id===id);
+    if (!p) return;
+    editingId = id;
+    document.getElementById('modalTitle').textContent = 'Edit Lokasi #' + id;
+    document.getElementById('fieldName').value = p.name || '';
+    document.getElementById('fieldCat').value = p.cat || 'umkm';
+    document.getElementById('fieldAddr').value = p.addr || '';
+    document.getElementById('fieldLat').value = p.lat;
+    document.getElementById('fieldLng').value = p.lng;
+    document.getElementById('fieldPid').value = p.pid || '';
+    document.getElementById('gmapsLinkInput').value = '';
+    document.getElementById('resolveHint').textContent = '';
+    document.getElementById('modalOverlay').classList.add('show');
+  }
+
+  function closeModal(){
+    document.getElementById('modalOverlay').classList.remove('show');
+  }
+
+  async function resolveLink(){
+    const url = document.getElementById('gmapsLinkInput').value.trim();
+    const hint = document.getElementById('resolveHint');
+    if (!url) { hint.textContent = 'Tempel link Google Maps dulu.'; return; }
+    hint.textContent = 'Memproses link...';
+    try {
+      const resp = await fetch('/api/resolve-link', {
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({ url })
+      });
+      const data = await resp.json();
+      if (data.ok) {
+        document.getElementById('fieldLat').value = data.lat;
+        document.getElementById('fieldLng').value = data.lng;
+        if (data.name && !document.getElementById('fieldName').value) {
+          document.getElementById('fieldName').value = data.name;
+        }
+        hint.textContent = 'Koordinat ditemukan: ' + data.lat + ', ' + data.lng;
+      } else {
+        hint.textContent = data.message || 'Gagal mengambil koordinat, isi manual ya.';
+      }
+    } catch (err) {
+      hint.textContent = 'Gagal memproses link.';
+    }
+  }
+
+  async function saveEntry(){
+    const name = document.getElementById('fieldName').value.trim();
+    const cat = document.getElementById('fieldCat').value;
+    const addr = document.getElementById('fieldAddr').value.trim();
+    const lat = parseFloat(document.getElementById('fieldLat').value);
+    const lng = parseFloat(document.getElementById('fieldLng').value);
+    const pid = document.getElementById('fieldPid').value.trim();
+
+    if (!name || isNaN(lat) || isNaN(lng)) {
+      showToast('Nama, latitude, dan longitude wajib diisi dengan benar', true);
+      return;
+    }
+
+    const entry = { name, cat, addr, lat, lng };
+    if (pid) entry.pid = pid;
+
+    if (editingId) {
+      const idx = PLACES.findIndex(p=>p.id===editingId);
+      entry.id = editingId;
+      PLACES[idx] = entry;
+    } else {
+      const nextId = PLACES.length ? Math.max(...PLACES.map(p=>p.id)) + 1 : 1;
+      entry.id = nextId;
+      PLACES.push(entry);
+    }
+
+    closeModal();
+    await persist(editingId ? `Update lokasi: ${name}` : `Tambah lokasi baru: ${name}`);
+  }
+
+  async function deleteEntry(id){
+    const p = PLACES.find(x=>x.id===id);
+    if (!p) return;
+    if (!confirm(`Hapus "${p.name}"? Tindakan ini akan langsung commit ke GitHub.`)) return;
+    PLACES = PLACES.filter(x=>x.id!==id);
+    await persist(`Hapus lokasi: ${p.name}`);
+  }
+
+  async function persist(commitMessage){
+    try {
+      const resp = await fetch('/api/places', {
+        method:'POST',
+        headers:{
+          'Content-Type':'application/json',
+          'x-admin-password': adminToken
+        },
+        body: JSON.stringify({ places: PLACES, commitMessage })
+      });
+      const data = await resp.json();
+      if (data.ok) {
+        showToast(data.message || 'Berhasil disimpan');
+        renderTable();
+      } else {
+        showToast(data.message || 'Gagal menyimpan', true);
+        await loadPlaces(); // revert to server state
+      }
+    } catch (err) {
+      showToast('Gagal terhubung ke server', true);
+      await loadPlaces();
+    }
+  }
+</script>
+</body>
+</html>
