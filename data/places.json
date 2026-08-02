@@ -1521,5 +1521,13 @@
     "lng": 109.7397058,
     "pid": "Kost",
     "id": 183
+  },
+  {
+    "name": "Stetes Coffee (Steco Leksana Karangkobar)",
+    "cat": "umkm",
+    "addr": "",
+    "lat": -7.2679666,
+    "lng": 109.7410739,
+    "id": 184
   }
 ]
