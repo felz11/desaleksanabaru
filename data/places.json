@@ -1512,5 +1512,14 @@
     "lat": -7.2672507,
     "lng": 109.741426,
     "id": 182
+  },
+  {
+    "name": "Kost Bu Indri Loji",
+    "cat": "penginapan",
+    "addr": "Desa Loji No.Rt 03/05, Leksana III, Leksana, Kec. Karangkobar, Kab. Banjarnegara, Jawa Tengah 53453",
+    "lat": -7.2686757,
+    "lng": 109.7397058,
+    "pid": "Kost",
+    "id": 183
   }
 ]
