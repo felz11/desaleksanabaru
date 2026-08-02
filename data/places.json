@@ -1,0 +1,1500 @@
+[
+  {
+    "id": 1,
+    "name": "Kantor Desa Leksana",
+    "pid": "ChIJG4nVFRYGcC4R3bgCNY92Hxs",
+    "cat": "pemerintahan",
+    "lat": -7.2702174,
+    "lng": 109.7425468,
+    "addr": "Jl. Prada Sabar Santosa, Leksana I, Kec. Karangkobar"
+  },
+  {
+    "id": 2,
+    "name": "Kantor Kepala Desa Leksana",
+    "pid": "ChIJ1Rkj938HcC4Rjid-kw5nZtQ",
+    "cat": "pemerintahan",
+    "lat": -7.2663416,
+    "lng": 109.7412173,
+    "addr": "Leksana III, Kec. Karangkobar"
+  },
+  {
+    "id": 3,
+    "name": "Koramil 04 Karangkobar",
+    "pid": "ChIJrYETjhUGcC4R4dTi2U0HDK4",
+    "cat": "keamanan",
+    "lat": -7.2708378,
+    "lng": 109.7392575,
+    "addr": "Jl. Raya Karangkobar–Pejawaran, Karangkobar Wetan"
+  },
+  {
+    "id": 4,
+    "name": "Polsek Karangkobar",
+    "pid": "ChIJ-SRi_RUGcC4RR9erPqKB7sw",
+    "cat": "keamanan",
+    "lat": -7.2708607,
+    "lng": 109.7413561,
+    "addr": "Jemblung, Karangkobar Wetan, Sampang"
+  },
+  {
+    "id": 5,
+    "name": "KB Karya Mentari Leksana",
+    "pid": "ChIJzfnXRmQHcC4RGgc03UMfQd8",
+    "cat": "pendidikan",
+    "lat": -7.2657921,
+    "lng": 109.7407022,
+    "addr": "Leksana II, Kec. Karangkobar"
+  },
+  {
+    "id": 6,
+    "name": "TK Pertiwi Leksana",
+    "pid": "ChIJ3wpC2RUGcC4RieCf4YspvmE",
+    "cat": "pendidikan",
+    "lat": -7.2696033,
+    "lng": 109.7409809,
+    "addr": "Karanganyar, Leksana, Kec. Karangkobar"
+  },
+  {
+    "id": 7,
+    "name": "SDN 1 Leksana",
+    "pid": "ChIJm4BL6BoHcC4R_YXoU1a0D3s",
+    "cat": "pendidikan",
+    "lat": -7.2695043,
+    "lng": 109.7406526,
+    "addr": "Leksana I, Kec. Karangkobar"
+  },
+  {
+    "id": 8,
+    "name": "SD Negeri 2 Leksana",
+    "pid": "ChIJ3aITpBMGcC4R0MHLeKwWXtQ",
+    "cat": "pendidikan",
+    "lat": -7.2669367,
+    "lng": 109.7416138,
+    "addr": "Leksana III, Kec. Karangkobar"
+  },
+  {
+    "id": 9,
+    "name": "SD Negeri 3 Karangkobar",
+    "pid": "ChIJt37HnWwGcC4RiY3kx1dRzvk",
+    "cat": "pendidikan",
+    "lat": -7.2687459,
+    "lng": 109.7354198,
+    "addr": "Jl. Desa, Leksana III, Kec. Karangkobar"
+  },
+  {
+    "id": 10,
+    "name": "SDIT Insan Mulia Karangkobar",
+    "pid": "ChIJpzZUhsIHcC4RVzaJI1trXDw",
+    "cat": "pendidikan",
+    "lat": -7.267109,
+    "lng": 109.735864,
+    "addr": "Leksana III, Kec. Karangkobar"
+  },
+  {
+    "id": 11,
+    "name": "SMP Negeri 1 Karangkobar",
+    "pid": "ChIJrVmZVREGcC4RA-Ln604B6Kc",
+    "cat": "pendidikan",
+    "lat": -7.2661832,
+    "lng": 109.7413025,
+    "addr": "Leksana II, Kec. Karangkobar"
+  },
+  {
+    "id": 12,
+    "name": "SMAN 1 Karangkobar",
+    "pid": "ChIJRaZMrhUGcC4RzuvlCsz_gCQ",
+    "cat": "pendidikan",
+    "lat": -7.2690617,
+    "lng": 109.7390754,
+    "addr": "Leksana No.25, Leksana III, Kec. Karangkobar"
+  },
+  {
+    "id": 13,
+    "name": "TPQ Nurus Sabiq",
+    "pid": "ChIJVVVVVRIGcC4R5xwcienIxkA",
+    "cat": "pendidikan",
+    "lat": -7.2636795,
+    "lng": 109.7383529,
+    "addr": "RT.01/03, Leksana II, Kec. Karangkobar"
+  },
+  {
+    "id": 14,
+    "name": "Masjid Baiturrohman Leksana",
+    "pid": "ChIJe5dd8xMGcC4RupiI_0ly3uw",
+    "cat": "ibadah",
+    "lat": -7.2658218,
+    "lng": 109.7399094,
+    "addr": "Leksana II, Kec. Karangkobar"
+  },
+  {
+    "id": 15,
+    "name": "Masjid Al Islah",
+    "pid": "ChIJ3a2llRUGcC4RYKPw7NjKufM",
+    "cat": "ibadah",
+    "lat": -7.2702309,
+    "lng": 109.7396833,
+    "addr": "Jl. Kauman, Karangkobar Wetan, Leksana"
+  },
+  {
+    "id": 16,
+    "name": "Masjid Nurul Hidayah",
+    "pid": "ChIJ1TXlZHIHcC4RxdlqNnnX5T4",
+    "cat": "ibadah",
+    "lat": -7.2649922,
+    "lng": 109.7395985,
+    "addr": "RT.04/01, Leksana II, Kec. Karangkobar"
+  },
+  {
+    "id": 17,
+    "name": "Masjid Nurul Huda",
+    "pid": "ChIJ9aH_eyYHcC4RUyleS5kLY4U",
+    "cat": "ibadah",
+    "lat": -7.2656901,
+    "lng": 109.7385325,
+    "addr": "RT.05/01, Leksana III, Kec. Karangkobar"
+  },
+  {
+    "id": 18,
+    "name": "Masjid Jami Al Khumaidi",
+    "pid": "ChIJZcBU0xUGcC4R7CcgKRjxsMk",
+    "cat": "ibadah",
+    "lat": -7.268689,
+    "lng": 109.7409202,
+    "addr": "Leksana I, Kec. Karangkobar"
+  },
+  {
+    "id": 19,
+    "name": "Masjid Al Ikhlas",
+    "pid": "ChIJeWVgVRIGcC4Ry8cqYmbBKIY",
+    "cat": "ibadah",
+    "lat": -7.263596,
+    "lng": 109.7383449,
+    "addr": "Leksana II, Kec. Karangkobar"
+  },
+  {
+    "id": 20,
+    "name": "Masjid Al-Munawwaroh",
+    "pid": "ChIJUz1s5BIGcC4Rjl4spR-hyWI",
+    "cat": "ibadah",
+    "lat": -7.2633388,
+    "lng": 109.7372805,
+    "addr": "Sidamukti, Leksana IV, Kec. Karangkobar"
+  },
+  {
+    "id": 21,
+    "name": "Masjid AT-TAQWA",
+    "pid": "ChIJDZ7GYSYHcC4RtEMBuxDg274",
+    "cat": "ibadah",
+    "lat": -7.2666379,
+    "lng": 109.7360349,
+    "addr": "Jl. Raya Gayam, Leksana IV, Kec. Karangkobar"
+  },
+  {
+    "id": 22,
+    "name": "Masjid Miftakhul Jannah",
+    "pid": "ChIJa3hYhxUGcC4RQ3tWP-7L4ew",
+    "cat": "ibadah",
+    "lat": -7.2688696,
+    "lng": 109.7364325,
+    "addr": "Jl. Raya Gayam, Leksana III, Kec. Karangkobar"
+  },
+  {
+    "id": 23,
+    "name": "Masjid Nurussabiq",
+    "pid": "ChIJifhjG3oHcC4Rw20h8aAKJ7A",
+    "cat": "ibadah",
+    "lat": -7.2650432,
+    "lng": 109.7431216,
+    "addr": "Jl. Raya Wanayasa–Karangkobar, Leksana II"
+  },
+  {
+    "id": 24,
+    "name": "Puskesmas Karangkobar",
+    "pid": "ChIJoeihBESpei4R3ODDhxXpxNU",
+    "cat": "kesehatan",
+    "lat": -7.2692041,
+    "lng": 109.7349707,
+    "addr": "Jl. Raya Karangkobar, Gayam, Kec. Karangkobar"
+  },
+  {
+    "id": 25,
+    "name": "Pasar Umum Karangkobar",
+    "pid": "ChIJrbg1OhQGcC4RX0RtjT7XNAE",
+    "cat": "ekonomi",
+    "lat": -7.2713765,
+    "lng": 109.7403368,
+    "addr": "Jl. Raya Karangkobar–Pejawaran, Karangkobar Wetan"
+  },
+  {
+    "id": 26,
+    "name": "Lapangan Desa Leksana",
+    "pid": "ChIJiaIfVhQGcC4R2ZlTZTJLzHE",
+    "cat": "umum",
+    "lat": -7.2684056,
+    "lng": 109.7383426,
+    "addr": "Leksana III, Kec. Karangkobar"
+  },
+  {
+    "id": 27,
+    "name": "Warung Mak Tinah",
+    "pid": "ChIJ2W_dCcoHcC4R-SrVSx0CPC8",
+    "cat": "kuliner",
+    "lat": -7.2688825,
+    "lng": 109.7396891,
+    "addr": "Loji, Leksana, Kec. Karangkobar"
+  },
+  {
+    "id": 28,
+    "name": "Rumah Makan Lamongan Cak Akim",
+    "pid": "ChIJPxiCwhUGcC4RIxEBBpHikRY",
+    "cat": "kuliner",
+    "lat": -7.2697501,
+    "lng": 109.7402846,
+    "addr": "Leksana I, Kec. Karangkobar"
+  },
+  {
+    "id": 29,
+    "name": "Warung Makan Lamongan Indah 98 \"Pak Bambang\"",
+    "pid": "ChIJv6Pe6PYHcC4RXHkGGXQndKs",
+    "cat": "kuliner",
+    "lat": -7.270892,
+    "lng": 109.7403771,
+    "addr": "Jl. Raya Wanayasa–Karangkobar, Karangkobar Wetan"
+  },
+  {
+    "id": 30,
+    "name": "Warung Makan Bu Slamet",
+    "pid": "ChIJaRe0NgAHcC4RYTgkk6VlL5U",
+    "cat": "kuliner",
+    "lat": -7.2708035,
+    "lng": 109.7404076,
+    "addr": "Karangkobar Wetan, Kec. Karangkobar"
+  },
+  {
+    "id": 31,
+    "name": "Kedai Jeralyn",
+    "pid": "ChIJffGocQAHcC4RPLq4DAdhzbs",
+    "cat": "kuliner",
+    "lat": -7.2694018,
+    "lng": 109.7407132,
+    "addr": "Jl. KH Hasyim Asy'ari No.1, Leksana I"
+  },
+  {
+    "id": 32,
+    "name": "Cafe Gedhong Kopi",
+    "pid": "ChIJvakT8hUGcC4RdnsMpdbDp70",
+    "cat": "kafe",
+    "lat": -7.2675534,
+    "lng": 109.7411079,
+    "addr": "Karangkobar Wetan, Leksana, Kec. Karangkobar"
+  },
+  {
+    "id": 33,
+    "name": "Kedai Yarra",
+    "pid": "ChIJ-UzSIQAHcC4RJLhLsVI6dBM",
+    "cat": "kuliner",
+    "lat": -7.2699138,
+    "lng": 109.7365155,
+    "addr": "Jl. Raya Gayam, Leksana III"
+  },
+  {
+    "id": 34,
+    "name": "Dapur Terserah",
+    "pid": "ChIJpTTeZoMHcC4Rk8079A6YcAA",
+    "cat": "kuliner",
+    "lat": -7.2694224,
+    "lng": 109.7401131,
+    "addr": "Jl. Raya Wanayasa–Karangkobar, Leksana I"
+  },
+  {
+    "id": 35,
+    "name": "Kuliner Karangkobar",
+    "pid": "ChIJ97ptW9EHcC4RGZBC7g7A-3o",
+    "cat": "kuliner",
+    "lat": -7.2639612,
+    "lng": 109.7378647,
+    "addr": "Sidamukti, Leksana, Kec. Karangkobar"
+  },
+  {
+    "id": 36,
+    "name": "Toko Sembako Kusumajaya",
+    "pid": "ChIJYTgnRGUHcC4R3ds_913qArU",
+    "cat": "ekonomi",
+    "lat": -7.2663561,
+    "lng": 109.7424075,
+    "addr": "Jl. Raya Karangkobar Km.5, Leksana I"
+  },
+  {
+    "id": 37,
+    "name": "Toko Sembako Robingah",
+    "pid": "ChIJkwzfeQAHcC4RZYNrpFFf0QE",
+    "cat": "ekonomi",
+    "lat": -7.26853,
+    "lng": 109.7361821,
+    "addr": "Gayam, Leksana III, Kec. Karangkobar"
+  },
+  {
+    "id": 38,
+    "name": "Warung Sembako Bu Siti",
+    "pid": "ChIJ24mfYEMHcC4RtGw0kimnkgg",
+    "cat": "ekonomi",
+    "lat": -7.2656085,
+    "lng": 109.7429085,
+    "addr": "Sidamulya, Leksana I, Kec. Karangkobar"
+  },
+  {
+    "id": 39,
+    "name": "\"R\" Motor (Bengkel)",
+    "pid": "ChIJf5QiyAoHcC4R0QR7QcmWGAI",
+    "cat": "jasa",
+    "lat": -7.2664776,
+    "lng": 109.74169099,
+    "addr": "Jemblung, Leksana II, Kec. Karangkobar"
+  },
+  {
+    "id": 40,
+    "name": "Bank Jateng KCP Karangkobar",
+    "pid": "ChIJjZFBLQAHcC4RbjwuH09azkg",
+    "cat": "jasa",
+    "lat": -7.2721847,
+    "lng": 109.7372473,
+    "addr": "Jl. Raya Wanayasa–Karangkobar, Leksana I"
+  },
+  {
+    "id": 41,
+    "name": "ATM BRI Karangkobar",
+    "pid": "ChIJKctcWzwHcC4RguY3ln78GIE",
+    "cat": "jasa",
+    "lat": -7.272219,
+    "lng": 109.7415212,
+    "addr": "Karangkobar Wetan, Kec. Karangkobar"
+  },
+  {
+    "id": 42,
+    "name": "SPBU Pertamina Karangkobar",
+    "pid": "ChIJr-r3amoGcC4RwV42k0QzMlc",
+    "cat": "jasa",
+    "lat": -7.2706142,
+    "lng": 109.7307966,
+    "addr": "Jl. Banjarnegara–Dieng Km.25, Karangkobar Kidul"
+  },
+  {
+    "id": 43,
+    "name": "Hotel Tirta Jadi (RedDoorz)",
+    "pid": "ChIJIZuNsxEGcC4Rtc9DF9wWRTM",
+    "cat": "penginapan",
+    "lat": -7.2624923,
+    "lng": 109.7439079,
+    "addr": "Jl. Raya Wanayasa–Karangkobar, Leksana II"
+  },
+  {
+    "id": 44,
+    "name": "Kecapan Karangkobar Kidul (Homestay)",
+    "pid": "ChIJ4TgJ8A8HcC4R-C9vmxDaM88",
+    "cat": "penginapan",
+    "lat": -7.2669928,
+    "lng": 109.7417115,
+    "addr": "Leksana I, Kec. Karangkobar"
+  },
+  {
+    "id": 45,
+    "name": "Mushola RT02/RW05",
+    "pid": "ChIJz_kkr-AHcC4RY-HVMlO0gLw",
+    "cat": "ibadah",
+    "lat": -7.2675869,
+    "lng": 109.7399472,
+    "addr": "Leksana III, Kec. Karangkobar"
+  },
+  {
+    "id": 46,
+    "name": "Mushola Baitul Hikmah",
+    "pid": "ChIJc2umvVkHcC4RoJ4af9v2jWY",
+    "cat": "ibadah",
+    "lat": -7.269644,
+    "lng": 109.7360771,
+    "addr": "Jl. Raya Gayam, Leksana III, Kec. Karangkobar"
+  },
+  {
+    "id": 47,
+    "name": "Gereja JKI Anugerah Illahi",
+    "pid": "ChIJlWrUUAAHcC4RwkPq705kAsk",
+    "cat": "ibadah",
+    "lat": -7.2715162,
+    "lng": 109.739726,
+    "addr": "Karangkobar Wetan, Kec. Karangkobar"
+  },
+  {
+    "id": 48,
+    "name": "Maqbarah KH. Muhammad Mustamir",
+    "pid": "ChIJEy6xq8EHcC4R-wGOuTQY8nk",
+    "cat": "ibadah",
+    "lat": -7.2702174,
+    "lng": 109.7425468,
+    "addr": "Karanganyar, Leksana I, Kec. Karangkobar"
+  },
+  {
+    "id": 49,
+    "name": "Yulia Salon Karangkobar",
+    "pid": "ChIJv2kxVn4HcC4RLiNUM_vA3Hg",
+    "cat": "jasa",
+    "lat": -7.2692423,
+    "lng": 109.7395558,
+    "addr": "Leksana III, Kec. Karangkobar"
+  },
+  {
+    "id": 50,
+    "name": "Maxx Laundry",
+    "pid": "ChIJZZ1aDgAHcC4RHQ8Df9V137o",
+    "cat": "jasa",
+    "lat": -7.2693611,
+    "lng": 109.7375356,
+    "addr": "Puntuk Pari, Leksana III, Kec. Karangkobar"
+  },
+  {
+    "id": 51,
+    "name": "AB Laundry",
+    "pid": "ChIJF6qrFpwHcC4RSVn-tHUF1t8",
+    "cat": "jasa",
+    "lat": -7.2686322,
+    "lng": 109.742689,
+    "addr": "Leksana I, Kec. Karangkobar"
+  },
+  {
+    "id": 52,
+    "name": "Zafaaroni Laundry dan Cookies",
+    "pid": "ChIJM6sJPwAHcC4RoHmMOeB0F5A",
+    "cat": "jasa",
+    "lat": -7.2636795,
+    "lng": 109.7383528,
+    "addr": "Leksana II, Kec. Karangkobar"
+  },
+  {
+    "id": 53,
+    "name": "Mbok Laundry Leksana",
+    "pid": "ChIJ7_5-FQAHcC4RXHOZB8nABqE",
+    "cat": "jasa",
+    "lat": -7.2667796,
+    "lng": 109.7415149,
+    "addr": "Leksana III, Kec. Karangkobar"
+  },
+  {
+    "id": 54,
+    "name": "Kantor Pos Karangkobar",
+    "pid": "ChIJ7wamY2sGcC4RKNUQY9qHkZc",
+    "cat": "jasa",
+    "lat": -7.2704997,
+    "lng": 109.7411873,
+    "addr": "Ds. Leksana, Karangkobar Wetan, Kec. Karangkobar"
+  },
+  {
+    "id": 55,
+    "name": "Mantili (Toko HP, Kue & Plastik)",
+    "pid": "ChIJfb0QsRYGcC4Rq_NfLcdPH4E",
+    "cat": "ekonomi",
+    "lat": -7.2664986,
+    "lng": 109.7423036,
+    "addr": "Leksana I, Kec. Karangkobar"
+  },
+  {
+    "id": 56,
+    "name": "BBC Cell Pusat HP & Aksesoris",
+    "pid": "ChIJXbm07hUGcC4RfEkY6vGYeQI",
+    "cat": "ekonomi",
+    "lat": -7.2702224,
+    "lng": 109.7402683,
+    "addr": "Karangkobar Wetan, Kec. Karangkobar"
+  },
+  {
+    "id": 57,
+    "name": "Apotek Karangkobar",
+    "pid": "ChIJHx4qpJoHcC4RaFQ6atSwrTQ",
+    "cat": "kesehatan",
+    "lat": -7.2710732,
+    "lng": 109.7402973,
+    "addr": "Karangkobar Wetan, Kec. Karangkobar"
+  },
+  {
+    "id": 58,
+    "name": "Apotek Rajawali",
+    "pid": "ChIJq6qqqm8GcC4RErbJ81B0ObU",
+    "cat": "kesehatan",
+    "lat": -7.2702324,
+    "lng": 109.7405102,
+    "addr": "Komplek Pasar Karangkobar, Karangkobar Wetan"
+  },
+  {
+    "id": 59,
+    "name": "WARTOYO",
+    "cat": "umkm",
+    "lat": -7.271511,
+    "lng": 109.738725,
+    "addr": "RT 01/01, Desa Leksana — KLATAK"
+  },
+  {
+    "id": 60,
+    "name": "SOBIHIN",
+    "cat": "umkm",
+    "lat": -7.271359,
+    "lng": 109.738791,
+    "addr": "RT 01/01, Desa Leksana — KLATAK"
+  },
+  {
+    "id": 61,
+    "name": "RANI",
+    "cat": "umkm",
+    "lat": -7.271105,
+    "lng": 109.73797,
+    "addr": "RT 02/01, Desa Leksana — TEMPE"
+  },
+  {
+    "id": 62,
+    "name": "EKO SUPRIYONO",
+    "cat": "umkm",
+    "lat": -7.270745,
+    "lng": 109.737792,
+    "addr": "RT 03/01, Desa Leksana — TEMPE"
+  },
+  {
+    "id": 63,
+    "name": "DIDIN",
+    "cat": "umkm",
+    "lat": -7.271178,
+    "lng": 109.737561,
+    "addr": "RT 03/01, Desa Leksana — TEMPE"
+  },
+  {
+    "id": 64,
+    "name": "KARMONO",
+    "cat": "umkm",
+    "lat": -7.269986,
+    "lng": 109.739567,
+    "addr": "RT 01/02, Desa Leksana — TEMPE"
+  },
+  {
+    "id": 65,
+    "name": "SUMARNO",
+    "cat": "umkm",
+    "lat": -7.269632,
+    "lng": 109.739024,
+    "addr": "RT 03/02, Desa Leksana — KLATAK"
+  },
+  {
+    "id": 66,
+    "name": "HARTONO",
+    "cat": "umkm",
+    "lat": -7.26893,
+    "lng": 109.738368,
+    "addr": "RT 04/02, Desa Leksana — KLATAK/GRUBI"
+  },
+  {
+    "id": 67,
+    "name": "SUPARI",
+    "cat": "umkm",
+    "lat": -7.268578,
+    "lng": 109.738008,
+    "addr": "RT 05/02, Desa Leksana — TEMPE"
+  },
+  {
+    "id": 68,
+    "name": "KASNARI TURI",
+    "cat": "umkm",
+    "lat": -7.269188,
+    "lng": 109.73824,
+    "addr": "RT 04/02, Desa Leksana — TEMPE"
+  },
+  {
+    "id": 69,
+    "name": "MISTER",
+    "cat": "umkm",
+    "lat": -7.268534,
+    "lng": 109.740531,
+    "addr": "RT 01/03, Desa Leksana — KLATAK"
+  },
+  {
+    "id": 70,
+    "name": "ANIS SETIYATI",
+    "cat": "umkm",
+    "lat": -7.268207,
+    "lng": 109.740734,
+    "addr": "RT 01/03, Desa Leksana — KLATAK TEMPE"
+  },
+  {
+    "id": 71,
+    "name": "MARYONO",
+    "cat": "umkm",
+    "lat": -7.268435,
+    "lng": 109.740282,
+    "addr": "RT 01/03, Desa Leksana — KLATAK TEMPE"
+  },
+  {
+    "id": 72,
+    "name": "MARTONO",
+    "cat": "umkm",
+    "lat": -7.268525,
+    "lng": 109.740503,
+    "addr": "RT 01/03, Desa Leksana — KLATAK TEMPE"
+  },
+  {
+    "id": 73,
+    "name": "MANISAH",
+    "cat": "umkm",
+    "lat": -7.268,
+    "lng": 109.740538,
+    "addr": "RT 01/03, Desa Leksana — KLATAK TEMPE"
+  },
+  {
+    "id": 74,
+    "name": "MUSIYAM",
+    "cat": "umkm",
+    "lat": -7.267803,
+    "lng": 109.740459,
+    "addr": "RT 02/03, Desa Leksana — PEYEK STIK"
+  },
+  {
+    "id": 75,
+    "name": "RASMINAH",
+    "cat": "umkm",
+    "lat": -7.267988,
+    "lng": 109.739809,
+    "addr": "RT 03/03, Desa Leksana — TEMPE"
+  },
+  {
+    "id": 76,
+    "name": "SATI",
+    "cat": "umkm",
+    "lat": -7.267618,
+    "lng": 109.740014,
+    "addr": "RT 03/03, Desa Leksana — KLATAK"
+  },
+  {
+    "id": 77,
+    "name": "MISKAM",
+    "cat": "umkm",
+    "lat": -7.267694,
+    "lng": 109.739727,
+    "addr": "RT 03/03, Desa Leksana — KLATAK TEMPE"
+  },
+  {
+    "id": 78,
+    "name": "SUMARNO",
+    "cat": "umkm",
+    "lat": -7.267508,
+    "lng": 109.739871,
+    "addr": "RT 03/03, Desa Leksana — KLATAK"
+  },
+  {
+    "id": 79,
+    "name": "PARYONO",
+    "cat": "umkm",
+    "lat": -7.267736,
+    "lng": 109.74014,
+    "addr": "RT 03/03, Desa Leksana — TEMPE TAHU"
+  },
+  {
+    "id": 80,
+    "name": "SLAMET SUDARTO",
+    "cat": "umkm",
+    "lat": -7.267607,
+    "lng": 109.74003,
+    "addr": "RT 03/03, Desa Leksana — KLATAK"
+  },
+  {
+    "id": 81,
+    "name": "PARMO",
+    "cat": "umkm",
+    "lat": -7.267728,
+    "lng": 109.739642,
+    "addr": "RT 03/03, Desa Leksana — TEMPE"
+  },
+  {
+    "id": 82,
+    "name": "DIARJO RUNTAH",
+    "cat": "umkm",
+    "lat": -7.267794,
+    "lng": 109.740133,
+    "addr": "RT 03/03, Desa Leksana — KLATAK"
+  },
+  {
+    "id": 83,
+    "name": "MARKONAH",
+    "cat": "umkm",
+    "lat": -7.266465,
+    "lng": 109.741251,
+    "addr": "RT 01/04, Desa Leksana — PEYEK"
+  },
+  {
+    "id": 84,
+    "name": "TOHIRIN",
+    "cat": "umkm",
+    "lat": -7.266125,
+    "lng": 109.740834,
+    "addr": "RT 03/04, Desa Leksana — KETAN TEMPE"
+  },
+  {
+    "id": 85,
+    "name": "NY MUHADI",
+    "cat": "umkm",
+    "lat": -7.266435,
+    "lng": 109.740688,
+    "addr": "RT 03/04, Desa Leksana — ROTI KERING"
+  },
+  {
+    "id": 86,
+    "name": "MUHARDI",
+    "cat": "umkm",
+    "lat": -7.264408,
+    "lng": 109.742062,
+    "addr": "RT 03/05, Desa Leksana — KLATAK"
+  },
+  {
+    "id": 87,
+    "name": "SUHERTO",
+    "cat": "umkm",
+    "lat": -7.264544,
+    "lng": 109.741847,
+    "addr": "RT 03/05, Desa Leksana — KLATAK"
+  },
+  {
+    "id": 88,
+    "name": "SUTARMI",
+    "cat": "umkm",
+    "lat": -7.264525,
+    "lng": 109.742085,
+    "addr": "RT 03/05, Desa Leksana — KLATAK"
+  },
+  {
+    "id": 89,
+    "name": "SULASTRI",
+    "cat": "umkm",
+    "lat": -7.264826,
+    "lng": 109.741798,
+    "addr": "RT 03/05, Desa Leksana — ROTI"
+  },
+  {
+    "id": 90,
+    "name": "MISEM",
+    "cat": "umkm",
+    "lat": -7.264877,
+    "lng": 109.742198,
+    "addr": "RT 02/05, Desa Leksana — TEMPE"
+  },
+  {
+    "id": 91,
+    "name": "SITI ROCHIMAH",
+    "cat": "umkm",
+    "lat": -7.264692,
+    "lng": 109.742497,
+    "addr": "RT 02/05, Desa Leksana — ROTI"
+  },
+  {
+    "id": 92,
+    "name": "SOBRON",
+    "cat": "umkm",
+    "lat": -7.264374,
+    "lng": 109.741333,
+    "addr": "RT 04/05, Desa Leksana — MAKANAN RINGAN"
+  },
+  {
+    "id": 93,
+    "name": "SUKARTI",
+    "cat": "umkm",
+    "lat": -7.270834,
+    "lng": 109.737949,
+    "addr": "RT 03/01, Desa Leksana — MAKANAN RINGAN"
+  },
+  {
+    "id": 94,
+    "name": "NY WAZIR",
+    "cat": "umkm",
+    "lat": -7.271164,
+    "lng": 109.737603,
+    "addr": "RT 03/01, Desa Leksana — MAKANAN RINGAN"
+  },
+  {
+    "id": 95,
+    "name": "NY ZAENAL",
+    "cat": "umkm",
+    "lat": -7.270866,
+    "lng": 109.738149,
+    "addr": "RT 03/01, Desa Leksana — MAKANAN RINGAN"
+  },
+  {
+    "id": 96,
+    "name": "SAIRAH",
+    "cat": "umkm",
+    "lat": -7.271487,
+    "lng": 109.738042,
+    "addr": "RT 02/01, Desa Leksana — MAKANAN RINGAN"
+  },
+  {
+    "id": 97,
+    "name": "MARNI",
+    "cat": "umkm",
+    "lat": -7.270828,
+    "lng": 109.737702,
+    "addr": "RT 04/01, Desa Leksana — MAKANAN RINGAN"
+  },
+  {
+    "id": 98,
+    "name": "MURTINAH",
+    "cat": "umkm",
+    "lat": -7.264019,
+    "lng": 109.741119,
+    "addr": "RT 05/05, Desa Leksana — KUEH"
+  },
+  {
+    "id": 99,
+    "name": "NY SUTRISNO",
+    "cat": "umkm",
+    "lat": -7.26406,
+    "lng": 109.741319,
+    "addr": "RT 05/05, Desa Leksana — MAKANAN"
+  },
+  {
+    "id": 100,
+    "name": "MAMIK/SUMARTI",
+    "cat": "umkm",
+    "lat": -7.263803,
+    "lng": 109.740941,
+    "addr": "RT 05/05, Desa Leksana — MAKANAN"
+  },
+  {
+    "id": 101,
+    "name": "RUSMIYATI",
+    "cat": "umkm",
+    "lat": -7.264303,
+    "lng": 109.741113,
+    "addr": "RT 05/05, Desa Leksana — MAKANAN"
+  },
+  {
+    "id": 102,
+    "name": "TATI",
+    "cat": "umkm",
+    "lat": -7.271158,
+    "lng": 109.737894,
+    "addr": "RT 03/01, Desa Leksana — KLATAK"
+  },
+  {
+    "id": 103,
+    "name": "MANISAH",
+    "cat": "umkm",
+    "lat": -7.270653,
+    "lng": 109.738139,
+    "addr": "RT 03/01, Desa Leksana — KLATAK"
+  },
+  {
+    "id": 104,
+    "name": "TRI YUWONO AJI",
+    "cat": "umkm",
+    "lat": -7.268022,
+    "lng": 109.739746,
+    "addr": "RT 03/03, Desa Leksana — BENGKEL MOTOR"
+  },
+  {
+    "id": 105,
+    "name": "FATHUR",
+    "cat": "umkm",
+    "lat": -7.267488,
+    "lng": 109.739852,
+    "addr": "RT 03/03, Desa Leksana — BENGKEL MOTOR"
+  },
+  {
+    "id": 106,
+    "name": "SARWAN SUSANTO",
+    "cat": "umkm",
+    "lat": -7.268201,
+    "lng": 109.740371,
+    "addr": "RT 01/03, Desa Leksana — BENGKEL MOTOR"
+  },
+  {
+    "id": 107,
+    "name": "ALWAN",
+    "cat": "umkm",
+    "lat": -7.267763,
+    "lng": 109.740044,
+    "addr": "RT 03/03, Desa Leksana — BENGKEL MOBIL"
+  },
+  {
+    "id": 108,
+    "name": "TUSRIN",
+    "cat": "umkm",
+    "lat": -7.270697,
+    "lng": 109.737677,
+    "addr": "RT 03/01, Desa Leksana — BENGKEL MOTOR"
+  },
+  {
+    "id": 109,
+    "name": "SUGENG ROFIK",
+    "cat": "umkm",
+    "lat": -7.26815,
+    "lng": 109.740847,
+    "addr": "RT 01/03, Desa Leksana — BENGKEL MOTOR"
+  },
+  {
+    "id": 110,
+    "name": "MARYONO",
+    "cat": "umkm",
+    "lat": -7.266835,
+    "lng": 109.741291,
+    "addr": "RT 01/04, Desa Leksana — KLATAK"
+  },
+  {
+    "id": 111,
+    "name": "SURIPYO",
+    "cat": "umkm",
+    "lat": -7.266414,
+    "lng": 109.741474,
+    "addr": "RT 01/04, Desa Leksana — KOPI"
+  },
+  {
+    "id": 112,
+    "name": "SUKUR MUSLIMAN",
+    "cat": "umkm",
+    "lat": -7.266936,
+    "lng": 109.741582,
+    "addr": "RT 01/04, Desa Leksana — SNACK"
+  },
+  {
+    "id": 113,
+    "name": "RONI KUTI M.",
+    "cat": "umkm",
+    "lat": -7.266748,
+    "lng": 109.741452,
+    "addr": "RT 01/04, Desa Leksana — KUE KERING"
+  },
+  {
+    "id": 114,
+    "name": "EVI MUJIANAH",
+    "cat": "umkm",
+    "lat": -7.266832,
+    "lng": 109.741494,
+    "addr": "RT 01/04, Desa Leksana — TEMPE KLATAK"
+  },
+  {
+    "id": 115,
+    "name": "SUMARYO",
+    "cat": "umkm",
+    "lat": -7.266484,
+    "lng": 109.741386,
+    "addr": "RT 01/04, Desa Leksana — BUDIDAYA JANGKRIK"
+  },
+  {
+    "id": 116,
+    "name": "MARDIO",
+    "cat": "umkm",
+    "lat": -7.266771,
+    "lng": 109.741662,
+    "addr": "RT 01/04, Desa Leksana — BUDIDAYA JANGKRIK"
+  },
+  {
+    "id": 117,
+    "name": "ZULFAH ANISFURO",
+    "cat": "umkm",
+    "lat": -7.266446,
+    "lng": 109.741233,
+    "addr": "RT 02/04, Desa Leksana — BUKET"
+  },
+  {
+    "id": 118,
+    "name": "YUSRIAH",
+    "cat": "umkm",
+    "lat": -7.266501,
+    "lng": 109.741435,
+    "addr": "RT 02/04, Desa Leksana — SEMPOL AYAM"
+  },
+  {
+    "id": 119,
+    "name": "ARIF BUDI SANTOSO",
+    "cat": "umkm",
+    "lat": -7.266017,
+    "lng": 109.740679,
+    "addr": "RT 03/04, Desa Leksana — PINDANG IKAN"
+  },
+  {
+    "id": 120,
+    "name": "EFIEK WINARNI U.",
+    "cat": "umkm",
+    "lat": -7.26628,
+    "lng": 109.740752,
+    "addr": "RT 03/04, Desa Leksana — KUE KERING"
+  },
+  {
+    "id": 121,
+    "name": "ASEP SAEPUDIN",
+    "cat": "umkm",
+    "lat": -7.265894,
+    "lng": 109.740712,
+    "addr": "RT 03/04, Desa Leksana — KUE KERING"
+  },
+  {
+    "id": 122,
+    "name": "SEPTI SOLECHATUN",
+    "cat": "umkm",
+    "lat": -7.270249,
+    "lng": 109.737159,
+    "addr": "RT 05/01, Desa Leksana — SNACK MAKANAN RINGAN"
+  },
+  {
+    "id": 123,
+    "name": "RIRIN SUSILOWATI",
+    "cat": "umkm",
+    "lat": -7.270454,
+    "lng": 109.736876,
+    "addr": "RT 06/01, Desa Leksana — SNACK MAKANAN RINGAN"
+  },
+  {
+    "id": 124,
+    "name": "KASEM",
+    "cat": "umkm",
+    "lat": -7.270414,
+    "lng": 109.736683,
+    "addr": "RT 06/01, Desa Leksana — KERING KENTANG DAN KOPI"
+  },
+  {
+    "id": 125,
+    "name": "MULYATI",
+    "cat": "umkm",
+    "lat": -7.269961,
+    "lng": 109.736569,
+    "addr": "RT 07/01, Desa Leksana — KLATAK"
+  },
+  {
+    "id": 126,
+    "name": "SULASTRI",
+    "cat": "umkm",
+    "lat": -7.269785,
+    "lng": 109.736404,
+    "addr": "RT 07/01, Desa Leksana — ANGKLENG"
+  },
+  {
+    "id": 127,
+    "name": "RAKIYAH",
+    "cat": "umkm",
+    "lat": -7.270427,
+    "lng": 109.737058,
+    "addr": "RT 05/01, Desa Leksana — KOPI"
+  },
+  {
+    "id": 128,
+    "name": "TURIYEM",
+    "cat": "umkm",
+    "lat": -7.271152,
+    "lng": 109.7377,
+    "addr": "RT 03/01, Desa Leksana — PEYEK"
+  },
+  {
+    "id": 129,
+    "name": "WARSITI",
+    "cat": "umkm",
+    "lat": -7.269789,
+    "lng": 109.736258,
+    "addr": "RT 08/01, Desa Leksana — MAKANAN RINGAN"
+  },
+  {
+    "id": 130,
+    "name": "PRIBADI",
+    "cat": "umkm",
+    "lat": -7.271389,
+    "lng": 109.73813,
+    "addr": "RT 02/01, Desa Leksana — KRUPUK OPAK"
+  },
+  {
+    "id": 131,
+    "name": "AGUS EFRIANTO",
+    "cat": "umkm",
+    "lat": -7.271128,
+    "lng": 109.737693,
+    "addr": "RT 03/01, Desa Leksana — ANEKA JAJANAN"
+  },
+  {
+    "id": 132,
+    "name": "IDA",
+    "cat": "umkm",
+    "lat": -7.271,
+    "lng": 109.737744,
+    "addr": "RT 03/01, Desa Leksana — PENJAHIT"
+  },
+  {
+    "id": 133,
+    "name": "JUMIAH",
+    "cat": "umkm",
+    "lat": -7.27071,
+    "lng": 109.737699,
+    "addr": "RT 03/01, Desa Leksana — SRABI"
+  },
+  {
+    "id": 134,
+    "name": "KOSIM",
+    "cat": "umkm",
+    "lat": -7.270842,
+    "lng": 109.737783,
+    "addr": "RT 03/01, Desa Leksana — BUNTIL"
+  },
+  {
+    "id": 135,
+    "name": "FIRMANTO",
+    "cat": "umkm",
+    "lat": -7.270639,
+    "lng": 109.737384,
+    "addr": "RT 04/01, Desa Leksana — PENJAHIT"
+  },
+  {
+    "id": 136,
+    "name": "TARMI",
+    "cat": "umkm",
+    "lat": -7.270792,
+    "lng": 109.737549,
+    "addr": "RT 04/01, Desa Leksana — WARUNG NASI (RAMESAN)"
+  },
+  {
+    "id": 137,
+    "name": "AHWAN",
+    "cat": "umkm",
+    "lat": -7.270864,
+    "lng": 109.737796,
+    "addr": "RT 04/01, Desa Leksana — MEBEL"
+  },
+  {
+    "id": 138,
+    "name": "SUPRI",
+    "cat": "umkm",
+    "lat": -7.27065,
+    "lng": 109.737252,
+    "addr": "RT 04/01, Desa Leksana — KLATAK"
+  },
+  {
+    "id": 139,
+    "name": "SABI SUYITNO",
+    "cat": "umkm",
+    "lat": -7.269514,
+    "lng": 109.738938,
+    "addr": "RT 03/02, Desa Leksana — KLATAK/KUE TRADISIONAL"
+  },
+  {
+    "id": 140,
+    "name": "KASNARI TURI",
+    "cat": "umkm",
+    "lat": -7.269188,
+    "lng": 109.73824,
+    "addr": "RT 04/02, Desa Leksana — TEMPE"
+  },
+  {
+    "id": 141,
+    "name": "PARYONO",
+    "cat": "umkm",
+    "lat": -7.267736,
+    "lng": 109.74014,
+    "addr": "RT 03/03, Desa Leksana — TEMPE TAHU"
+  },
+  {
+    "id": 142,
+    "name": "SLAMET SUDARTO",
+    "cat": "umkm",
+    "lat": -7.267607,
+    "lng": 109.74003,
+    "addr": "RT 03/03, Desa Leksana — KLATAK"
+  },
+  {
+    "id": 143,
+    "name": "SARWO",
+    "cat": "umkm",
+    "lat": -7.267884,
+    "lng": 109.740133,
+    "addr": "RT 03/03, Desa Leksana — MEBEL"
+  },
+  {
+    "id": 144,
+    "name": "SUKARDI",
+    "cat": "umkm",
+    "lat": -7.267769,
+    "lng": 109.739575,
+    "addr": "RT 03/03, Desa Leksana — BAKSO"
+  },
+  {
+    "id": 145,
+    "name": "DEDI",
+    "cat": "umkm",
+    "lat": -7.271175,
+    "lng": 109.738666,
+    "addr": "RT 01/01, Desa Leksana — BUBUR"
+  },
+  {
+    "id": 146,
+    "name": "DARSUN",
+    "cat": "umkm",
+    "lat": -7.27152,
+    "lng": 109.738492,
+    "addr": "RT 01/01, Desa Leksana — SATE KAMBING"
+  },
+  {
+    "id": 147,
+    "name": "WIWID",
+    "cat": "umkm",
+    "lat": -7.27101,
+    "lng": 109.738003,
+    "addr": "RT 02/01, Desa Leksana — KOPI"
+  },
+  {
+    "id": 148,
+    "name": "HARYANTO",
+    "cat": "umkm",
+    "lat": -7.268585,
+    "lng": 109.738157,
+    "addr": "RT 05/02, Desa Leksana — KOPI ARABIKA"
+  },
+  {
+    "id": 149,
+    "name": "NURUL ARIFIN",
+    "cat": "umkm",
+    "lat": -7.268615,
+    "lng": 109.737862,
+    "addr": "RT 05/02, Desa Leksana — THE JAWA"
+  },
+  {
+    "id": 150,
+    "name": "MINGGU",
+    "cat": "umkm",
+    "lat": -7.267452,
+    "lng": 109.739961,
+    "addr": "RT 03/03, Desa Leksana — BAKSO"
+  },
+  {
+    "id": 151,
+    "name": "TK PGRI LEKSANA",
+    "cat": "pendidikan",
+    "lat": -7.2669128,
+    "lng": 109.7413241,
+    "addr": "Ds. Leksana, Kec. Karangkobar"
+  },
+  {
+    "id": 152,
+    "name": "Indopung",
+    "cat": "umkm",
+    "lat": -7.2664984,
+    "lng": 109.7422937,
+    "addr": "Ds. Leksana, Kec. Karangkobar"
+  },
+  {
+    "id": 153,
+    "name": "SMK Ma'arif NU 01 Karangkobar",
+    "cat": "pendidikan",
+    "lat": -7.2688038,
+    "lng": 109.7419762,
+    "addr": "Ds. Leksana, Kec. Karangkobar"
+  },
+  {
+    "id": 154,
+    "name": "SMP Ma'arif NU 01 Karangkobar",
+    "cat": "pendidikan",
+    "lat": -7.269035,
+    "lng": 109.7415824,
+    "addr": "Ds. Leksana, Kec. Karangkobar"
+  },
+  {
+    "id": 155,
+    "name": "KB Karya Mentari Leksana",
+    "cat": "pendidikan",
+    "lat": -7.2657921,
+    "lng": 109.7407022,
+    "addr": "Ds. Leksana, Kec. Karangkobar"
+  },
+  {
+    "id": 156,
+    "name": "PAUD Karya Mentari 2023",
+    "cat": "pendidikan",
+    "lat": -7.2658401,
+    "lng": 109.7378678,
+    "addr": "Ds. Leksana, Kec. Karangkobar"
+  },
+  {
+    "id": 157,
+    "name": "Lapangan Doglong Karangkobar",
+    "cat": "umum",
+    "lat": -7.268395,
+    "lng": 109.7381404,
+    "addr": "Ds. Leksana, Kec. Karangkobar"
+  },
+  {
+    "id": 158,
+    "name": "Barakom Digital Printing",
+    "cat": "jasa",
+    "lat": -7.2705939,
+    "lng": 109.7398279,
+    "addr": "Karangkobar Wetan, Kec. Karangkobar"
+  },
+  {
+    "id": 159,
+    "name": "Momoyo Karangkobar",
+    "cat": "kuliner",
+    "lat": -7.2702325,
+    "lng": 109.7379043,
+    "addr": "Ds. Leksana, Kec. Karangkobar"
+  },
+  {
+    "id": 160,
+    "name": "Dadi Redjo Kopi dan Tembakau",
+    "cat": "kafe",
+    "lat": -7.2691862,
+    "lng": 109.7368594,
+    "addr": "Ds. Leksana, Kec. Karangkobar"
+  },
+  {
+    "id": 161,
+    "name": "Straightline Coffee Dan Konveksi",
+    "cat": "kafe",
+    "lat": -7.2700959,
+    "lng": 109.7367003,
+    "addr": "Ds. Leksana, Kec. Karangkobar"
+  },
+  {
+    "id": 162,
+    "name": "Luminous Billiard Arena and Longue",
+    "cat": "olahraga",
+    "lat": -7.2713446,
+    "lng": 109.7393575,
+    "addr": "Ds. Leksana, Kec. Karangkobar"
+  },
+  {
+    "id": 163,
+    "name": "SD Negeri 1 Karangkobar",
+    "cat": "pendidikan",
+    "lat": -7.2708707,
+    "lng": 109.7401293,
+    "addr": "Karangkobar Wetan, Kec. Karangkobar"
+  },
+  {
+    "id": 164,
+    "name": "Bakso & Mie Ayam Sari Gurih",
+    "cat": "kuliner",
+    "lat": -7.2708174,
+    "lng": 109.7402849,
+    "addr": "Karangkobar Wetan, Kec. Karangkobar"
+  },
+  {
+    "id": 165,
+    "name": "Nasi Goreng Tegal",
+    "cat": "kuliner",
+    "lat": -7.2707553,
+    "lng": 109.7404076,
+    "addr": "Karangkobar Wetan, Kec. Karangkobar"
+  },
+  {
+    "id": 166,
+    "name": "Toko Elektronik P Agus 888",
+    "cat": "ekonomi",
+    "lat": -7.2711438,
+    "lng": 109.7403318,
+    "addr": "Karangkobar Wetan, Kec. Karangkobar"
+  },
+  {
+    "id": 167,
+    "name": "Nando Motor",
+    "cat": "jasa",
+    "lat": -7.2712921,
+    "lng": 109.7403016,
+    "addr": "Karangkobar Wetan, Kec. Karangkobar"
+  },
+  {
+    "id": 168,
+    "name": "Bakso Pak Tunut",
+    "cat": "kuliner",
+    "lat": -7.2716021,
+    "lng": 109.7401007,
+    "addr": "Karangkobar Wetan, Kec. Karangkobar"
+  },
+  {
+    "id": 169,
+    "name": "Sate Gulai Kambing Muda Pak Darsun Karangkobar",
+    "cat": "kuliner",
+    "lat": -7.2716689,
+    "lng": 109.7400957,
+    "addr": "Karangkobar Wetan, Kec. Karangkobar"
+  },
+  {
+    "id": 170,
+    "name": "Martabak Telur & Manis Terlegend",
+    "cat": "kuliner",
+    "lat": -7.2719938,
+    "lng": 109.7401705,
+    "addr": "Karangkobar Wetan, Kec. Karangkobar"
+  },
+  {
+    "id": 171,
+    "name": "RM Sokaraja",
+    "cat": "kuliner",
+    "lat": -7.2721609,
+    "lng": 109.7402473,
+    "addr": "Karangkobar Wetan, Kec. Karangkobar"
+  },
+  {
+    "id": 172,
+    "name": "Apotek Rizqi Medika",
+    "cat": "kesehatan",
+    "lat": -7.2720921,
+    "lng": 109.74077,
+    "addr": "Karangkobar Wetan, Kec. Karangkobar"
+  },
+  {
+    "id": 173,
+    "name": "Bank BRI Unit Karangkobar",
+    "cat": "jasa",
+    "lat": -7.2722253,
+    "lng": 109.7414813,
+    "addr": "Karangkobar Wetan, Kec. Karangkobar"
+  },
+  {
+    "id": 174,
+    "name": "King Frozen Food",
+    "cat": "ekonomi",
+    "lat": -7.2718531,
+    "lng": 109.7417923,
+    "addr": "Karangkobar Wetan, Kec. Karangkobar"
+  },
+  {
+    "id": 175,
+    "name": "Bhavana Coffee Roastery",
+    "cat": "kafe",
+    "lat": -7.2719769,
+    "lng": 109.7370903,
+    "addr": "Ds. Leksana, Kec. Karangkobar"
+  },
+  {
+    "id": 176,
+    "name": "Rocket Chicken Karangkobar",
+    "cat": "kuliner",
+    "lat": -7.2691659,
+    "lng": 109.7402732,
+    "addr": "Karangkobar Wetan, Kec. Karangkobar"
+  },
+  {
+    "id": 177,
+    "name": "JNE Karangkobar",
+    "cat": "jasa",
+    "lat": -7.2665654,
+    "lng": 109.7417846,
+    "addr": "Ds. Leksana, Kec. Karangkobar"
+  },
+  {
+    "id": 178,
+    "name": "Makam Wali Karangkobar",
+    "cat": "umum",
+    "lat": -7.268097,
+    "lng": 109.7435521,
+    "addr": "Ds. Leksana, Kec. Karangkobar"
+  },
+  {
+    "id": 179,
+    "name": "Pasar Hewan Karangkobar",
+    "cat": "ekonomi",
+    "lat": -7.266319,
+    "lng": 109.7424809,
+    "addr": "Ds. Leksana, Kec. Karangkobar"
+  },
+  {
+    "id": 180,
+    "name": "GOR Leksana Berdaya",
+    "cat": "olahraga",
+    "lat": -7.266253,
+    "lng": 109.741087,
+    "addr": "Ds. Leksana, Kec. Karangkobar"
+  }
+]
