@@ -1530,5 +1530,13 @@
     "lng": 109.7410739,
     "pid": "Kedai Kopi",
     "id": 184
+  },
+  {
+    "name": "King Frozen Food",
+    "cat": "umkm",
+    "addr": "",
+    "lat": -7.2718531,
+    "lng": 109.7417923,
+    "id": 185
   }
 ]
