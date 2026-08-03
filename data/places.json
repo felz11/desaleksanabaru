@@ -1547,5 +1547,14 @@
     "lng": 109.7402515,
     "pid": "RUMAH PAK MAMAD",
     "id": 186
+  },
+  {
+    "name": "BU IKA",
+    "cat": "umkm",
+    "addr": "Jl. Raya Gayam No.22, Leksana III, Karangkobar, Kec. Karangkobar, Kab. Banjarnegara, Jawa Tengah 53453",
+    "lat": -7.2697067,
+    "lng": 109.7358441,
+    "pid": "RUMAH PAKET HP",
+    "id": 187
   }
 ]
