@@ -1266,12 +1266,12 @@
     "addr": "Ds. Leksana, Kec. Karangkobar"
   },
   {
-    "id": 152,
     "name": "Indopung",
     "cat": "umkm",
+    "addr": "Ds. Leksana, Kec. Karangkobar",
     "lat": -7.2664984,
     "lng": 109.7422937,
-    "addr": "Ds. Leksana, Kec. Karangkobar"
+    "id": 152
   },
   {
     "id": 153,
