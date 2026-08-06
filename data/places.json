@@ -1530,5 +1530,31 @@
     "lng": 109.7410739,
     "pid": "Kedai Kopi",
     "id": 184
+  },
+  {
+    "name": "King Frozen Food",
+    "cat": "umkm",
+    "addr": "",
+    "lat": -7.2718531,
+    "lng": 109.7417923,
+    "id": 185
+  },
+  {
+    "name": "RUMAH PAK MAMAD",
+    "cat": "kafe",
+    "addr": "",
+    "lat": -7.2697449,
+    "lng": 109.7402515,
+    "pid": "RUMAH PAK MAMAD",
+    "id": 186
+  },
+  {
+    "name": "BU IKA",
+    "cat": "kafe",
+    "addr": "Jl. Raya Gayam No.22, Leksana III, Karangkobar, Kec. Karangkobar, Kab. Banjarnegara, Jawa Tengah 53453",
+    "lat": -7.2697067,
+    "lng": 109.7358441,
+    "pid": "RUMAH PAKET HP",
+    "id": 187
   }
 ]
